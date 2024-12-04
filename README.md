@@ -1,4 +1,4 @@
-# Cancer Mortality Rate Prediction Using Linear Regeression and Deep Neural Networks
+# Cancer Mortality Rate Prediction Using Linear Regression and Deep Neural Networks
 
 ## Dataset Description - 
 
