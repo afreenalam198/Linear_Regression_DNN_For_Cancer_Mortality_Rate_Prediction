@@ -38,7 +38,7 @@ For the BinnedInc column as the data is binned I had to convert it into numeric 
 used Midpoint Transformation where I extracted the upper and lower bounds from the
 ranges and calculated the midpoints.  
 
-## Training and test Split -
+## Training and Test Split -
 
 Training - 80%, Validation - 10%, Testing - 10% 
 
