@@ -23,3 +23,22 @@ DNN-30-8
 DNN-30-16-8  
 DNN-30-16-8-4  
 
+## Dataset Preporcessing -
+
+Since around 75% of the data in PctSomeCol18_24 column are missing, I have
+dropped this column.  
+To handle the missing data of PctEmployed16_Over and PctPrivateCoverageAlone
+columns, I have used median imputation where I calculated the median of all the rows
+for the particular column and replaced the null value rows with the calculated median
+value.  
+The dataset has two columns Geography and BinnedInc the values for which are objects.
+Since each row has a unique value for the Geography column, encoding methods would
+not have worked so I decided to drop this column.  
+For the BinnedInc column as the data is binned I had to convert it into numeric values. I
+used Midpoint Transformation where I extracted the upper and lower bounds from the
+ranges and calculated the midpoints.  
+
+## Training and test Split -
+
+Training - 80%, Validation - 10%, Testing - 10% 
+
