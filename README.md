@@ -42,3 +42,9 @@ ranges and calculated the midpoints.
 
 Training - 80%, Validation - 10%, Testing - 10% 
 
+## Best Models -
+
+Highest Performed DNN Model - DNN-30-16-8-4 Model with Adam Optimizer and LR of
+0.001.  
+Highest Performed Linear Regression model - Linear Regression model with Adam
+Optimizer and LR of 0.1.  
