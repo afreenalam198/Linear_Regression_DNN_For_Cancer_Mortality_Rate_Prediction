@@ -42,7 +42,7 @@ ranges and calculated the midpoints.
 
 Training - 80%, Validation - 10%, Testing - 10% 
 
-## Best Models -
+## Best Performed Models -
 
 Highest Performed DNN Model - DNN-30-16-8-4 Model with Adam Optimizer and LR of
 0.001.  
