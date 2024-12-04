@@ -23,7 +23,7 @@ DNN-30-8
 DNN-30-16-8  
 DNN-30-16-8-4  
 
-## Dataset Preporcessing -
+## Dataset Preprocessing -
 
 Since around 75% of the data in PctSomeCol18_24 column are missing, I have
 dropped this column.  
